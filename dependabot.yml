@@ -2,8 +2,7 @@ version: 2
 updates:
 - package-ecosystem: cargo
   directory: "/"
-  schedule:
-    interval: daily
+  schedule
   open-pull-requests-limit: 10
   labels:
   - "\U0001F4E6 dependencies"
@@ -17,7 +16,6 @@ updates:
 - package-ecosystem: github-actions
   directory: "/"
   schedule:
-    interval: daily
-  open-pull-requests-limit: 10
+    interval: 
   labels:
   - "\U0001F4E6 dependencies"
